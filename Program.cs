@@ -20,9 +20,9 @@ Console.WriteLine("███████╗╚██████╔╝██║ 
 Console.WriteLine("╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝╚═╝╚═╝    ╚═╝     ╚═╝╚═╝   ╚═╝    ╚═════╝  ╚═╝ ╚═╝  ╚═════╝  ╚═════╝  ╚═════╝  ╚═╝              ");
 Thread.Sleep(3000); // Sleeps
 //Whitelist
-string whitelist = new System.Net.WebClient() { Proxy = null }.DownloadString("https://pastebin.com/GzN3LqkD");
+string whitelist = new System.Net.WebClient() { Proxy = null }.DownloadString("UR PASTEBIN HERE");
 //Blacklist
-string blacklist = new System.Net.WebClient() { Proxy = null }.DownloadString("https://pastebin.com/FnQPkB6P");
+string blacklist = new System.Net.WebClient() { Proxy = null }.DownloadString("UR PASTEBIN HERE");
 
 //C# Print
 Console.WriteLine("Sharing this key allows people to login to your account wich will get your account blacklisted from our system.");
